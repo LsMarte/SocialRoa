@@ -1,0 +1,13 @@
+@echo off
+echo Iniciando backend de SocialRoa...
+cd /d "c:\Users\luis marte\OneDrive\Escritorio\SocialRoa\SocialRoa\backend"
+echo Directorio actual: %cd%
+
+echo Verificando dependencias...
+if not exist node_modules (
+    echo Instalando dependencias...
+    npm install
+)
+
+echo Iniciando servidor backend en puerto 3001...
+npm start

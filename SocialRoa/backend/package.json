@@ -1,0 +1,33 @@
+{
+  "name": "socialroa-backend",
+  "version": "1.0.0",
+  "description": "Backend for SocialRoa, a social network platform.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "busboy": "^1.6.0",
+    "cors": "^2.8.5",
+    "dicer": "^0.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^7.5.1",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^10.1.4",
+    "mongoose": "^8.16.2",
+    "multer": "^2.0.1",
+    "nodemailer": "^7.0.5",
+    "semver": "^7.7.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
