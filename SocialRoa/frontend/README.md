@@ -18,6 +18,8 @@ The frontend project is organized as follows:
 ```
 frontend/
 ├── src/
+|__  |__ index.html       #main page
+|    |
 │   ├── App.js               # Main application component
 │   ├── components/          # Reusable components
 │   │   ├── Auth/           # Authentication components
